@@ -1,0 +1,10 @@
+- id: fish_syntax
+  name: validate fish syntax
+  entry: fish --no-execute
+  types: [fish]
+  language: system
+- id: fish_format
+  name: automatically format fish files
+  entry: fish_indent --write
+  types: [fish]
+  language: system
